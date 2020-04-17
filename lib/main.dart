@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:qrscan/scan.dart';
+import 'package:qrscan/home.dart';
 
 class MyApp extends StatelessWidget {
 
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: Scanner(),
+      home: Home(),
     );
   }
 }
